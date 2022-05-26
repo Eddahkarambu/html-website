@@ -18,11 +18,18 @@
 /* index.html */
 
 body{
-    background-color: mediumspringgreen;
+    background-color: aquamarine;
     min-height: 100vh;
     padding-left:50px;
     padding-right: 50px;
     margin:0;
+}
+.delivery{
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+    line-height: 1.4;
 }
 
 
@@ -31,6 +38,7 @@ body{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
+
     
 }
 
@@ -44,9 +52,52 @@ img{
 /* about page */
 
 .navbar{
-    color: #be1d1d;
+    color: black;
     font-size: 30px;
-    text-align: center;
     justify-content: space-between;
-   display: flex;    
+   display: flex;
+   align-items: center;    
+}
+.navbar a{
+    margin-left: 20px;
+}
+
+.Eddah{
+    color: black;
+    font-size: 20px;
+}
+.mainnav{  
+        display:flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 100%;
+        
+}
+.imgg{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.fit{
+    width:27%;
+}
+.paragraph{
+    font-size: 50px;
+    color:black;
+}
+
+.sale{
+    font-size: 100px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.all{
+    display: flex;
+    background-color: #dfd2d2;
+    justify-content: space-around;
 }
