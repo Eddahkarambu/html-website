@@ -70,8 +70,7 @@ img{
         display:flex;
         justify-content: space-between;
         margin-top: 30px;
-        width: 100%;
-        
+        width: 100%;     
 }
 .imgg{
     display: grid;
@@ -79,8 +78,7 @@ img{
     gap: 1rem;
     justify-content: space-around;
     display: flex;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;   
 }
 .fit{
     width:27%;
